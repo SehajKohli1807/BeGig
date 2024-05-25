@@ -1,0 +1,496 @@
+* {
+    margin: 0;
+    padding: 0;
+  }
+  body {
+    font-family: Poppins, Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f4f4f4;
+  }
+  .container {
+    width: 100%;
+    max-width: 600px;
+    margin: auto;
+    background-color: #ffffff;
+
+    overflow: hidden;
+    border: 1px solid #ddd;
+  }
+
+  .image-content {
+    position: absolute;
+    right: 0px;
+    bottom: 0px;
+  }
+
+  .image-content img {
+    position: relative;
+    z-index: 1;
+    width: 100%;
+    height: 100%;
+
+    object-fit: fill;
+  }
+
+  .banner {
+    background-image: url("images/background.png");
+    border-radius: 40px 40px 0px 0px;
+    position: relative;
+  }
+  .overlay {
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background-color: #476bdc;
+
+    background-blend-mode: multiply;
+    border-radius: 40px 40px 0px 0px;
+    opacity: 0.9;
+    z-index: 1;
+  }
+
+  .header {
+    color: #ffffff;
+    text-align: left;
+    padding: 20px 0px 20px 20px;
+    position: relative;
+    z-index: 2;
+  }
+
+  .header h1 {
+    margin: 70px 0px 20px 25px;
+    position: relative;
+    font-size: 38px;
+    font-weight: 700;
+    text-align: left;
+    width: 402px;
+    z-index: 2;
+  }
+  .header p {
+    margin: 10px 0px 0px 25px;
+    position: relative;
+    font-size: 14px;
+    font-weight: 400;
+    text-align: left;
+    width: 273px;
+    z-index: 2;
+  }
+
+  .languages {
+    position: relative;
+    z-index: 3;
+  }
+
+  .languages2 {
+    position: relative;
+
+    opacity: 0.8;
+  }
+
+  .java-icon {
+    position: absolute;
+    right: 38%;
+    bottom: 24%;
+  }
+
+  .net-icon {
+    position: absolute;
+    right: 28.5%;
+    bottom: 31%;
+    width: 45.9px;
+    height: 24.48px;
+    border-radius: 0px 0px 8px 0px;
+    opacity: 0.9;
+    z-index: 1;
+  }
+
+  .fullstack-icon {
+    position: absolute;
+    right: 27%;
+    bottom: 0%;
+  }
+
+  .line {
+    position: absolute;
+    left: 0px;
+    bottom: 39%;
+  }
+
+  .name {
+    position: absolute;
+    z-index: 2;
+    top: 8%;
+    left: 4.5%;
+
+    height: 20px;
+    width: 80px;
+  }
+  .b1 {
+    position: relative;
+    z-index: 2;
+    top: 11%;
+    left: 2%;
+  }
+
+  .b2 {
+    position: relative;
+    z-index: 2;
+    top: 8%;
+    left: 24%;
+  }
+
+  .e {
+    position: relative;
+    z-index: 2;
+    top: 7%;
+    left: 7.5%;
+  }
+
+  .gig {
+    position: relative;
+    z-index: 2;
+    top: 48%;
+    left: 2%;
+  }
+
+  .vector {
+    position: relative;
+    z-index: 2;
+  }
+
+  .vector-right {
+    position: absolute;
+    top: 3%;
+    right: 2%;
+  }
+
+  .vector-left {
+    position: absolute;
+    left: 1%;
+    bottom: 3%;
+  }
+  .content {
+    padding: 20px;
+    text-align: center;
+  }
+  .content h3 {
+    color: #4668d6;
+    font-family: Poppins;
+    font-size: 21px;
+    font-weight: 700;
+    line-height: 31.5px;
+    text-align: center;
+  }
+  .benefits {
+    position: relative;
+    text-align: left;
+    width: 90%;
+    margin: 20px auto;
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    z-index: 2;
+  }
+
+  .benefits h3 {
+    margin-bottom: 15px;
+  }
+
+  .benefit {
+    display: flex;
+    align-items: center;
+    gap: 15px;
+  }
+  .benefit img {
+    width: 71.68px;
+    height: 71.68px;
+    margin-right: 20px;
+  }
+
+  .yellow-circle {
+    position: relative;
+  }
+  .rocket-icon {
+    position: absolute;
+  }
+  .benefit p {
+    margin: 0;
+    font-size: 16px;
+    color: #0c0e17;
+  }
+  .cta {
+    margin: 30px 0;
+  }
+  .cta a {
+    background-color: #4668d6;
+    color: white;
+    font-weight: 600;
+    width: 80%;
+    text-decoration: none;
+    padding: 15px 30px;
+    border-radius: 5px;
+    font-size: 16px;
+    display: inline-block;
+    margin-top: 10px;
+    margin-bottom: 4px;
+  }
+
+  .cta p {
+    color: #a5a5a5;
+    text-align: center;
+  }
+
+  .testimonials {
+    background-color: #222635;
+    padding: 40px 30px;
+  }
+  .testimonials h3 {
+    color: #f6f5ff;
+    font-size: 20px;
+    font-weight: 700;
+    text-align: center;
+    margin-bottom: 20px;
+  }
+  .testimonial-cards {
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+  }
+  .testimonials .testimonial-card {
+    width: 27%;
+    height: 22%;
+    background-color: white;
+    border-radius: 15px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    padding: 16px 10px 8px 10px;
+    text-align: left;
+    margin: 4px;
+    position: relative;
+    display: flex;
+    flex-direction: column;
+  }
+  .testimonial-header {
+    display: flex;
+    align-items: center;
+    margin-bottom: 6px;
+  }
+  .testimonial-header img {
+    width: 28.92px;
+    height: 28.92px;
+    border-radius: 50%;
+    margin-right: 10px;
+    margin-left: 2px;
+    margin-top: 15px;
+  }
+
+  .testimonial-content h4 {
+    font-size: 6px;
+    margin: 2px 0px 8px 0px;
+  }
+
+  .review {
+    align-self: center;
+    border-radius: 15px;
+    padding: 4px 6px;
+    width: 96%;
+    height: 60px;
+  }
+
+  .review p {
+    color: #222635;
+    font-size: 6px;
+
+    text-align: left;
+    justify-self: center;
+  }
+
+  .review1 {
+    background: #dee4f8;
+  }
+
+  .review2 {
+    background: #e8d3ee;
+  }
+
+  .review3 {
+    background: #fff4d6;
+  }
+  .testimonial-header span {
+    display: inline;
+    font-size: 6px;
+    color: #999;
+    font-style: italic;
+  }
+
+  .quote-symbol {
+    position: absolute;
+    top: 6%;
+    left: 8%;
+  }
+  .stars {
+    position: absolute;
+    right: 5%;
+    top: 5%;
+    display: block;
+    color: #ffd700;
+    font-size: 18px;
+  }
+
+  .testimonial-header p {
+    margin: 0;
+    font-size: 9px;
+    color: #0c0e17;
+  }
+
+  .testimonial-content {
+    margin-top: 30px;
+  }
+
+  
+
+  .footer {
+    text-align: center;
+    padding: 20px;
+    background-color: white;
+    color: black;
+  }
+  .footer p {
+    margin: 0px 0;
+  }
+  .footer a {
+    color: black;
+    text-decoration: none;
+    margin: 0 5px;
+  }
+
+  .social-media {
+    margin-top: 30px;
+    padding: 5px;
+  }
+  .logo-image {
+    margin: 25px 0px 15px 0px;
+  }
+
+  .social-media a {
+    padding: 3px;
+  }
+  @media screen and (max-width: 600px) {
+    .container {
+      width: 100%;
+    }
+
+    .header {
+      position: relative;
+    }
+
+    .header h1 {
+      margin: 80px 0px 0px 20px;
+      font-size: 24px;
+      font-weight: 700;
+      text-align: left;
+      width: 260px;
+      overflow-x: auto;
+    }
+    .header p {
+      margin: 10px 0px 0px 20px;
+      font-size: 8px;
+      font-weight: 400;
+      text-align: left;
+      width: 150px;
+    }
+    .benefit,
+    .testimonial {
+      display: flex;
+      flex-direction: column;
+      text-align: center;
+    }
+
+    .testimonial-cards {
+      display: flex;
+      flex-direction: column;
+    }
+
+    .testimonials .testimonial-card {
+      width: 78%;
+      height: 78%;
+      margin-bottom: 20px;
+    }
+    .benefit img,
+    .testimonial img {
+      margin: 0 auto 10px auto;
+    }
+    .testimonial-header {
+      flex-direction: row;
+      align-items: center;
+      justify-content: left;
+    }
+    .testimonial-header img {
+      width: 15%;
+      height: 15%;
+      border-radius: 50%;
+      margin-right: 15px;
+      margin-left: 4px;
+      margin-top: 16px;
+      align-items: flex-start;
+    }
+    .testimonial-content {
+      display: inline;
+      text-align: left;
+    }
+
+    .vector-right {
+      right: 5%;
+    }
+    .review {
+      padding: 2px;
+    }
+    .review p {
+      font-size: 8px;
+    }
+
+    .line {
+      position: absolute;
+      bottom: 37%;
+    }
+    .bannet {
+      position: relative;
+    }
+    .image-content {
+      position: absolute;
+      right: -90px;
+      bottom: -5px;
+    }
+
+    .image-content img {
+      position: relative;
+      z-index: 1;
+      width: 70%;
+      height: 70%;
+
+      object-fit: fill;
+    }
+    .java-icon {
+      position: absolute;
+      right: 41%;
+      bottom: 19%;
+    }
+
+    .net-icon {
+      position: absolute;
+      right: 28.3%;
+      bottom: 29%;
+      width: 45.9px;
+      height: 24.48px;
+      opacity: 0.9;
+      z-index: 1;
+    }
+
+    .fullstack-icon {
+      position: absolute;
+      right: 26%;
+      bottom: -9px;
+    }
+  }
